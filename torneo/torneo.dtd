@@ -1,0 +1,10 @@
+<!ELEMENT torneo (participante+)>
+<!ATTLIST torneo edicion CDATA #REQUIRED>
+<!ATTLIST torneo anteriorGanador CDATA #REQUIRED>
+<!ELEMENT participante (nombre,edad,pais,cabezaDeSerie*)>
+<!ATTLIST participante idP CDATA #REQUIRED>
+<!ATTLIST participante pareja CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT cabezaDeSerie (#PCDATA)>
