@@ -1,0 +1,83 @@
+.todolist-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .task-form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .task-form input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .task-form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-actions button {
+    margin-left: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-task {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .edit-task input {
+    flex-grow: 1;
+    padding: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .edit-task button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
