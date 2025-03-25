@@ -1,4 +1,5 @@
 package Figura1;
+import java.lang.Math;
 
 public class PiramideRectangular extends Figura3D {
     private double base;    // longitud de la base
@@ -11,7 +12,31 @@ public class PiramideRectangular extends Figura3D {
         this.altura = altura;
     }
 
-    @Override
+    public double getBase() {
+        return base;
+    }
+
+    public void setBase(double base) {
+        this.base = base;
+    }
+
+    public double getAncho() {
+        return ancho;
+    }
+
+    public void setAncho(double ancho) {
+        this.ancho = ancho;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+
     public double calcularArea() {
         // Para la pirámide rectangular se calcula:
         // Área base = base * ancho
@@ -26,14 +51,15 @@ public class PiramideRectangular extends Figura3D {
         return areaBase + areaLateral;
     }
 
-    @Override
+  
     public double calcularVolumen() {
         // Volumen de una pirámide = (base * ancho * altura) / 3
         return (base * ancho * altura) / 3.0;
     }
+    public  void mostrarinfo3D(){
+        System.out.println("Tipo de Figura: " + getClass().getSimpleName());
+        System.out.println("Área: " + calcularArea());
+        System.out.println("Volumen: " + calcularVolumen());
+    };
 
-    public void mostrarInformacion() {
-        return;
-    }
-   
 }
