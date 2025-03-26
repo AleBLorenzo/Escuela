@@ -7,4 +7,5 @@ public abstract class Figura2D extends FiguraS {
 
     public abstract void mostrarinfo2D ();
     
+
 }

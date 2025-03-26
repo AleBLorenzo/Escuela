@@ -3,9 +3,9 @@ import java.lang.Math;
 
 
 public  class Circulo extends Figura2D {
-    private double radio;
+    public double radio;
 
-    public Circulo(double radio) {
+    public  Circulo (double radio) {
         this.radio = radio;
     }
 
@@ -19,16 +19,12 @@ public  class Circulo extends Figura2D {
     }
 
 
-    /**
-     * @return double return the radio
-     */
+ 
     public double getRadio() {
         return radio;
     }
 
-    /**
-     * @param radio the radio to set
-     */
+  
     public void setRadio(double radio) {
         this.radio = radio;
     }

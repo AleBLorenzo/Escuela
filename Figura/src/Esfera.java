@@ -19,16 +19,11 @@ public class Esfera extends Figura3D {
         return (4.0/3) * Math.PI * Math.pow(radio, 3);
     }
 
-    /**
-     * @return double return the radio
-     */
+  
     public double getRadio() {
         return radio;
     }
 
-    /**
-     * @param radio the radio to set
-     */
     public void setRadio(double radio) {
         this.radio = radio;
     }
