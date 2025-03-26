@@ -1,5 +1,5 @@
 package Figura.src;
-import java.lang.Math;
+
 
 public  class Rectangulo extends Figura2D {
     private double base;
@@ -36,7 +36,7 @@ public  class Rectangulo extends Figura2D {
         return 2 * (base + altura);
     }
     public void mostrarinfo2D () {
-        System.out.println("Tipo de Figura: " + "Rectangulo");
+        System.out.println("Tipo de Figura: " + getClass().getSimpleName());
         System.out.println("Área: " + calcularArea());
         System.out.println("Perímetro: " + calcularPerimetro());
     } ;
