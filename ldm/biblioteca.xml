@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xslt"?>
+<biblioteca>
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <editorial>Editorial Espasa</editorial>
+        <anio>1605</anio>
+        <isbn>978-84-670-1234-5</isbn>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <editorial>Editorial Sudamericana</editorial>
+        <anio>1967</anio>
+        <isbn>978-84-670-5678-9</isbn>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <editorial>Editorial Planeta</editorial>
+        <anio>2001</anio>
+        <isbn>978-84-670-9876-5</isbn>
+    </libro>
+</biblioteca>
